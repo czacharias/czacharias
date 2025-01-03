@@ -1,5 +1,3 @@
-![dekubobdemnem](https://preview.redd.it/g5wvo8akvzh31.png?auto=webp&s=e8af71d6e4abc60d461eb513a25206b92eae767b)
-
 <h1 align="center"><p align="left"> <img src="https://komarev.com/ghpvc/?username=czacharias&label=Profile%20views&color=0e75b6&style=plastic" alt="czacharias" /> </p>Hi 👋, I'm Connor</h1>
 
 <h3 align="center">Connect with me:</h3>
