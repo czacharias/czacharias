@@ -8,7 +8,7 @@ Building software for accessible information analysis and distribution.
 
 ### [DubCheck](https://github.com/czacharias/DubCheck)
 
-`JavaScript` · `Python` · `SQLite` · `browser automation`
+`JavaScript` · `Python` · `SQLite`
 
 A chrome extension to help with UW course planning. Displays 4.0 rate, professor ratings, and offers sorting options and filters to make MyUW more useful.
 
