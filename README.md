@@ -1,8 +1,6 @@
 # Connor Zacharias
 
-Computer science + mathematics at the University of Washington.
-
-[![profile build](https://github.com/czacharias/czacharias/actions/workflows/profile.yml/badge.svg)](https://github.com/czacharias/czacharias/actions/workflows/profile.yml)
+∈ (CS ∩ Math) @ UW
 
 Building software for accessible information distribution.
 
@@ -14,31 +12,31 @@ Building software for accessible information distribution.
 
 <img alt="DubCheck status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fczacharias%2Fczacharias%2Fmain%2Fbadges%2Fdubcheck.json" />
 
-A local-first UW course-planning pipeline that turns catalog and historical grade data into comparable course options. Python, SQLite, browser automation, and explicit data provenance.
+A chrome extension to help with UW course planning. Displays 4.0 rate, professor ratings, and offers sorting options and filters to make MyUW more useful.
 
 ### RoomScrape
 
 <img alt="RoomScrape status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fczacharias%2Fczacharias%2Fmain%2Fbadges%2Froomscrape.json" />
 
-A room-availability monitor for UW's former housing portal: authenticated scraping, cookie management, Supabase-backed state comparison, and SMS alerts. UW has since migrated the portal to StarRez, so this is preserved as an archived systems project rather than an active scraper.
+An SMS room-availability monitor for UW's old housing portal. UW has since migrated the portal to StarRez, leaving this outdated.
 
 ### [DegreePlan](https://github.com/czacharias/Math381Proj)
 
 <img alt="DegreePlan status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fczacharias%2Fczacharias%2Fmain%2Fbadges%2Fdegreeplan.json" />
 
-Risk-aware degree planning as a mixed-integer optimization problem: graduation constraints, predicted grades, schedule efficiency, and uncertainty in one inspectable model.
+Writeup and code for a risk-aware degree planning as a MISOCP.
 
 ### [DeepQ-Pong](https://github.com/czacharias/deepq-pong)
 
 <img alt="DeepQ-Pong status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fczacharias%2Fczacharias%2Fmain%2Fbadges%2Fdeepq-pong.json" />
 
-A from-scratch Deep Q-Network experiment for Pong, built to make replay buffers, target networks, exploration schedules, and training behavior understandable.
+A from-scratch Deep Q-Network experiment for Pong.
 
 ### Anterc
 
 <img alt="Anterc status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fczacharias%2Fczacharias%2Fmain%2Fbadges%2Fanterc.json" />
 
-A biomedical literature and evidence pipeline under active private development. I will publish it when the product and its validation story are ready to stand on their own.
+A biomedical literature and evidence pipeline for accessible novel compound information. Currently under active private development.
 
 ## `/research-interests`
 
