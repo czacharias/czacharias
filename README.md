@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td width="30">~/</td>
-    <td># ~/Connor Zacharias <sub><sub>∈ (CS ∩ Math) @ UW</sub></sub></td>
+    <td><h1>Connor Zacharias <sub><sub>∈ (CS ∩ Math) @ UW</sub></sub></h1></td>
   </tr>
 </table>
 
