@@ -1,6 +1,6 @@
 # Connor Zacharias <sub><sub>∈ (CS ∩ Math) @ UW</sub></sub>
 
-Building software for accessible information distribution.
+Building software for accessible information analysis and distribution.
 
 `research computing` · `data systems` · `optimization` · `machine learning`
 
