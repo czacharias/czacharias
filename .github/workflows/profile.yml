@@ -1,0 +1,58 @@
+name: profile
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - assets/**
+      - badges/**
+      - data/**
+      - scripts/**
+      - .github/workflows/profile.yml
+  schedule:
+    - cron: "17 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate project telemetry and endpoint badges
+        run: python scripts/generate_status.py
+
+      - name: Refresh reading metadata through Crossref
+        env:
+          CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
+        run: python scripts/update_reading.py
+
+      - name: Validate generated profile
+        run: python scripts/validate_profile.py
+
+      - name: Commit refreshed generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/status.svg badges data/crossref_cache.json
+          if git diff --cached --quiet; then
+            echo "Profile is already current."
+          else
+            git commit -m "chore: refresh profile data"
+            git push
+          fi
+

@@ -18,6 +18,12 @@ Building software for accessible information distribution.
 
 A local-first UW course-planning pipeline that turns catalog and historical grade data into comparable course options. Python, SQLite, browser automation, and explicit data provenance.
 
+### RoomScrape
+
+<img alt="RoomScrape status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fczacharias%2Fczacharias%2Fmain%2Fbadges%2Froomscrape.json" />
+
+A room-availability monitor for UW's former housing portal: authenticated scraping, cookie management, Supabase-backed state comparison, and SMS alerts. UW has since migrated the portal to StarRez, so this is preserved as a retired systems project rather than an active scraper.
+
 ### [DegreePlan](https://github.com/czacharias/Math381Proj)
 
 <img alt="DegreePlan status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fczacharias%2Fczacharias%2Fmain%2Fbadges%2Fdegreeplan.json" />
@@ -62,4 +68,3 @@ Research computing, pharmacology, optimization, reliable AI/data systems, and th
 Exercise physiology & strength training, guitar, 7s rugby, philosophy & speculative fiction
 
 `Seattle WA ↔ Kelowna BC` · `go dawgs`
-

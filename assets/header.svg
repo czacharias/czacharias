@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img">
+  <title>Connor Zacharias — computer science and mathematics at the University of Washington</title>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#20302d" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#66f0c8"/>
+      <stop offset="1" stop-color="#69c5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="220" rx="12" fill="#0b0f0e"/>
+  <rect x="1" y="1" width="898" height="218" rx="11" fill="none" stroke="#2d3d39"/>
+  <rect x="18" y="18" width="864" height="184" rx="7" fill="url(#grid)" stroke="#253530"/>
+  <rect x="18" y="18" width="5" height="184" rx="2" fill="url(#edge)"/>
+  <circle cx="48" cy="45" r="5" fill="#66f0c8"/>
+  <circle cx="67" cy="45" r="5" fill="#d2a85b"/>
+  <circle cx="86" cy="45" r="5" fill="#69c5ff"/>
+  <text x="46" y="87" fill="#7e938d" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="2">/USERS/CZACHARIAS/PROFILE</text>
+  <text x="46" y="129" fill="#f0eee6" font-size="34" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="1">CONNOR ZACHARIAS</text>
+  <text x="48" y="161" fill="#66f0c8" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">COMPUTER SCIENCE + MATHEMATICS // UW</text>
+  <text x="48" y="185" fill="#a9b8b3" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">systems for evidence, optimization, and scientific work</text>
+  <text x="790" y="185" fill="#69c5ff" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">SEA↔YVR</text>
+</svg>
+

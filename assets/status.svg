@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="486" viewBox="0 0 900 486" role="img">
+  <title>Current project status</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .eyebrow { fill: #66f0c8; font-size: 12px; letter-spacing: 1.5px; }
+    .hint { fill: #71817c; font-size: 11px; }
+    .name { fill: #f0eee6; font-size: 15px; font-weight: 700; }
+    .area { fill: #8fa29c; font-size: 12px; }
+    .status { font-size: 12px; font-weight: 700; }
+    .detail { fill: #a9b8b3; font-size: 12px; }
+  </style>
+  <rect width="900" height="486" rx="10" fill="#0b0f0e"/>
+  <rect x="1" y="1" width="898" height="484" rx="9" fill="none" stroke="#2d3d39"/>
+  <text x="34" y="36" class="eyebrow">PROJECT TELEMETRY</text>
+  <text x="866" y="36" class="hint" text-anchor="end">source: data/status.json</text>
+  <g transform="translate(34 68)">
+    <rect width="832" height="62" rx="6" fill="#111715" stroke="#263732"/>
+    <rect width="4" height="62" rx="2" fill="#2ea043"/>
+    <circle cx="24" cy="22" r="5" fill="#2ea043"/>
+    <text x="40" y="27" class="name">DubCheck</text>
+    <text x="230" y="27" class="area">data pipeline</text>
+    <text x="812" y="27" class="status" text-anchor="end" fill="#2ea043">active</text>
+    <text x="40" y="48" class="detail">documenting the complete Python and SQLite pipeline</text>
+  </g>
+  <g transform="translate(34 146)">
+    <rect width="832" height="62" rx="6" fill="#111715" stroke="#263732"/>
+    <rect width="4" height="62" rx="2" fill="#6e7681"/>
+    <circle cx="24" cy="22" r="5" fill="#6e7681"/>
+    <text x="40" y="27" class="name">RoomScrape</text>
+    <text x="230" y="27" class="area">automation</text>
+    <text x="812" y="27" class="status" text-anchor="end" fill="#6e7681">retired</text>
+    <text x="40" y="48" class="detail">legacy UW housing monitor; target portal migrated to StarRez</text>
+  </g>
+  <g transform="translate(34 224)">
+    <rect width="832" height="62" rx="6" fill="#111715" stroke="#263732"/>
+    <rect width="4" height="62" rx="2" fill="#1f6feb"/>
+    <circle cx="24" cy="22" r="5" fill="#1f6feb"/>
+    <text x="40" y="27" class="name">DegreePlan</text>
+    <text x="230" y="27" class="area">optimization</text>
+    <text x="812" y="27" class="status" text-anchor="end" fill="#1f6feb">documenting</text>
+    <text x="40" y="48" class="detail">packaging results, constraints, and model limitations</text>
+  </g>
+  <g transform="translate(34 302)">
+    <rect width="832" height="62" rx="6" fill="#111715" stroke="#263732"/>
+    <rect width="4" height="62" rx="2" fill="#a371f7"/>
+    <circle cx="24" cy="22" r="5" fill="#a371f7"/>
+    <text x="40" y="27" class="name">DeepQ-Pong</text>
+    <text x="230" y="27" class="area">reinforcement learning</text>
+    <text x="812" y="27" class="status" text-anchor="end" fill="#a371f7">polishing</text>
+    <text x="40" y="48" class="detail">adding reproducible training evidence</text>
+  </g>
+  <g transform="translate(34 380)">
+    <rect width="832" height="62" rx="6" fill="#111715" stroke="#263732"/>
+    <rect width="4" height="62" rx="2" fill="#d29922"/>
+    <circle cx="24" cy="22" r="5" fill="#d29922"/>
+    <text x="40" y="27" class="name">Anterc</text>
+    <text x="230" y="27" class="area">research system</text>
+    <text x="812" y="27" class="status" text-anchor="end" fill="#d29922">private development</text>
+    <text x="40" y="48" class="detail">working toward a defensible public release</text>
+  </g>
+</svg>
