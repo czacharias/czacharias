@@ -6,7 +6,7 @@
   <a href="https://github.com/czacharias/czacharias/actions/workflows/profile.yml"><img alt="profile build" src="https://github.com/czacharias/czacharias/actions/workflows/profile.yml/badge.svg" /></a>
 </p>
 
-I build software that turns messy information into decisions you can defend.
+Building software for accessible information distribution.
 
 `research computing` · `data systems` · `optimization` · `machine learning`
 
@@ -59,7 +59,7 @@ Research computing, pharmacology, optimization, reliable AI/data systems, and th
 
 ## `/off-hours`
 
-Strength training, guitar, rugby, mathematical rabbit holes, and speculative fiction.
+Exercise physiology & strength training, guitar, 7s rugby, philosophy & speculative fiction
 
-`Seattle ↔ Vancouver` · `go dawgs`
+`Seattle WA ↔ Kelowna BC` · `go dawgs`
 
