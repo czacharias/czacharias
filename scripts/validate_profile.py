@@ -6,7 +6,6 @@ from __future__ import annotations
 import json
 import subprocess
 import sys
-import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
@@ -20,8 +19,6 @@ def run(*arguments: str) -> None:
 def main() -> int:
     required = [
         ROOT / "README.md",
-        ROOT / "assets" / "header.svg",
-        ROOT / "assets" / "status.svg",
         ROOT / ".github" / "workflows" / "profile.yml",
     ]
     missing = [str(path.relative_to(ROOT)) for path in required if not path.exists()]
@@ -29,10 +26,10 @@ def main() -> int:
         raise ValueError(f"missing required files: {', '.join(missing)}")
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    for fragment in ("/selected-work", "/system-status", "/reading", "/research-interests", "/off-hours"):
+    for fragment in ("/selected-work", "/research-interests"):
         if fragment not in readme:
             raise ValueError(f"README is missing {fragment}")
-    for forbidden in ("osu",):
+    for forbidden in ("osu", "/system-status", "/reading", "/off-hours", "assets/header.svg", "assets/status.svg"):
         if forbidden.lower() in readme.lower():
             raise ValueError(f"README contains intentionally excluded text: {forbidden}")
 
@@ -40,11 +37,11 @@ def main() -> int:
     keys = [project["key"] for project in status["projects"]]
     if len(keys) != len(set(keys)):
         raise ValueError("project keys must be unique")
+    statuses = {project["status"] for project in status["projects"]}
+    if not statuses.issubset({"active", "archived"}):
+        raise ValueError("project statuses must use the active/archived lifecycle standard")
 
-    ET.parse(ROOT / "assets" / "header.svg")
-    ET.parse(ROOT / "assets" / "status.svg")
     run("scripts/generate_status.py", "--check")
-    run("scripts/update_reading.py", "--offline", "--check")
     print("profile validation passed")
     return 0
 

@@ -1,10 +1,8 @@
-<p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Connor Zacharias — computer science and mathematics at the University of Washington" />
-</p>
+# Connor Zacharias
 
-<p align="center">
-  <a href="https://github.com/czacharias/czacharias/actions/workflows/profile.yml"><img alt="profile build" src="https://github.com/czacharias/czacharias/actions/workflows/profile.yml/badge.svg" /></a>
-</p>
+Computer science + mathematics at the University of Washington.
+
+[![profile build](https://github.com/czacharias/czacharias/actions/workflows/profile.yml/badge.svg)](https://github.com/czacharias/czacharias/actions/workflows/profile.yml)
 
 Building software for accessible information distribution.
 
@@ -22,7 +20,7 @@ A local-first UW course-planning pipeline that turns catalog and historical grad
 
 <img alt="RoomScrape status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fczacharias%2Fczacharias%2Fmain%2Fbadges%2Froomscrape.json" />
 
-A room-availability monitor for UW's former housing portal: authenticated scraping, cookie management, Supabase-backed state comparison, and SMS alerts. UW has since migrated the portal to StarRez, so this is preserved as a retired systems project rather than an active scraper.
+A room-availability monitor for UW's former housing portal: authenticated scraping, cookie management, Supabase-backed state comparison, and SMS alerts. UW has since migrated the portal to StarRez, so this is preserved as an archived systems project rather than an active scraper.
 
 ### [DegreePlan](https://github.com/czacharias/Math381Proj)
 
@@ -42,29 +40,6 @@ A from-scratch Deep Q-Network experiment for Pong, built to make replay buffers,
 
 A biomedical literature and evidence pipeline under active private development. I will publish it when the product and its validation story are ready to stand on their own.
 
-## `/system-status`
-
-<p align="center">
-  <img src="./assets/status.svg" width="100%" alt="Current project status" />
-</p>
-
-The panel and project badges above are generated from [`data/status.json`](./data/status.json), so the profile has one source of truth instead of hand-edited status labels.
-
-## `/reading`
-
-Papers behind the things I am building, resolved from DOI metadata through Crossref.
-
-<!-- READING:START -->
-- [Human-level control through deep reinforcement learning](https://doi.org/10.1038/nature14236) — *Nature* (2015)
-  Deep Q-learning foundation for DeepQ-Pong.
-<!-- READING:END -->
-
 ## `/research-interests`
 
 Research computing, pharmacology, optimization, reliable AI/data systems, and the infrastructure that makes computational work reproducible.
-
-## `/off-hours`
-
-Exercise physiology & strength training, guitar, 7s rugby, philosophy & speculative fiction
-
-`Seattle WA ↔ Kelowna BC` · `go dawgs`

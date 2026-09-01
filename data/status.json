@@ -12,7 +12,7 @@
       "key": "roomscrape",
       "name": "RoomScrape",
       "area": "automation",
-      "status": "retired",
+      "status": "archived",
       "detail": "legacy UW housing monitor; target portal migrated to StarRez",
       "color": "6e7681"
     },
@@ -20,25 +20,25 @@
       "key": "degreeplan",
       "name": "DegreePlan",
       "area": "optimization",
-      "status": "documenting",
+      "status": "active",
       "detail": "packaging results, constraints, and model limitations",
-      "color": "1f6feb"
+      "color": "2ea043"
     },
     {
       "key": "deepq-pong",
       "name": "DeepQ-Pong",
       "area": "reinforcement learning",
-      "status": "polishing",
+      "status": "active",
       "detail": "adding reproducible training evidence",
-      "color": "a371f7"
+      "color": "2ea043"
     },
     {
       "key": "anterc",
       "name": "Anterc",
       "area": "research system",
-      "status": "private development",
+      "status": "active",
       "detail": "working toward a defensible public release",
-      "color": "d29922"
+      "color": "2ea043"
     }
   ]
 }
