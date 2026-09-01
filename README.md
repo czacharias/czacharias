@@ -1,10 +1,10 @@
-# Connor Zacharias <sub><sub>∈ (CS ∩ Math) @ UW</sub></sub>
+# ~/Connor Zacharias <sub><sub>∈ (CS ∩ Math) @ UW</sub></sub>
 
 Building software for accessible information analysis and distribution.
 
 `research computing` · `data systems` · `optimization` · `machine learning`
 
-## `/selected-work`
+## `/work`
 
 ### [DubCheck](https://github.com/czacharias/DubCheck)
 
