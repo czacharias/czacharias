@@ -1,7 +1,7 @@
-<table>
-  <tr>
-    <td width="30">~/</td>
-    <td><h1>Connor Zacharias <sub><sub>∈ (CS ∩ Math) @ UW</sub></sub></h1></td>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr style="border: none;">
+    <td style="border: none;" width="25" valign="bottom">~/</td>
+    <td style="border: none;" valign="bottom"><h1>Connor Zacharias <sub><sub>∈ (CS ∩ Math) @ UW</h1></td>
   </tr>
 </table>
 
