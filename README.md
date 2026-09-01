@@ -1,4 +1,9 @@
-# ~/Connor Zacharias <sub><sub>∈ (CS ∩ Math) @ UW</sub></sub>
+<table>
+  <tr>
+    <td width="30">~/</td>
+    <td># ~/Connor Zacharias <sub><sub>∈ (CS ∩ Math) @ UW</sub></sub></td>
+  </tr>
+</table>
 
 Building software for accessible information analysis and distribution.
 
