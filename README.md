@@ -35,7 +35,3 @@ A from-scratch Deep Q-Network experiment for Pong.
 `Python` · `SQLite` · `scientific APIs` · `evidence validation`
 
 A biomedical literature and evidence pipeline for accessible novel compound information. Currently under active private development.
-
-## `/research-interests`
-
-Research computing, pharmacology, optimization, reliable AI/data systems, and the infrastructure that makes computational work reproducible.
