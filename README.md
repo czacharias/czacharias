@@ -30,7 +30,7 @@ Writeup and code for a risk-aware degree planning as a MISOCP.
 
 A from-scratch Deep Q-Network experiment for Pong.
 
-### Anterc
+### Anterc - Coming Soon
 
 `Python` · `SQLite` · `scientific APIs` · `evidence validation`
 
