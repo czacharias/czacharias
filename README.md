@@ -1,6 +1,4 @@
-# Connor Zacharias
-
-∈ (CS ∩ Math) @ UW
+# Connor Zacharias <sub>∈ (CS ∩ Math) @ UW</sub>
 
 Building software for accessible information distribution.
 
