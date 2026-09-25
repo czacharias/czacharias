@@ -22,7 +22,7 @@ An SMS room-availability monitor for UW's old housing portal. UW has since migra
 
 `Python` · `Gurobi` · `mixed-integer optimization`
 
-Writeup and code for a risk-aware degree planning as a MISOCP.
+Writeup and code for risk-aware degree planning as a MISOCP.
 
 ### [DeepQ-Pong](https://github.com/czacharias/deepq-pong)
 
